@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".LoginAsAdvocate">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
+            android:text="Login as Advocate"
             android:fontFamily="@font/abril_fatface"
             android:textColor="@color/white"
             android:textSize="25dp"
@@ -31,65 +31,74 @@
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="120dp">
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/butLogin"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:text="Login"
-            app:rippleColor="@color/black"
             android:textColor="@color/black"
             android:textAllCaps="false"
             android:textSize="20sp"
+            app:rippleColor="#00BCD4"
             android:fontFamily="@font/abril_fatface"
-            app:strokeColor="@color/black"
+            app:strokeColor="#00BCD4"
             style="?attr/materialButtonOutlinedStyle"/>
-
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-
-
-        android:layout_height="60dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp">
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/butRegistration"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Registration"
-            android:textColor="@color/black"
-            app:rippleColor="@color/black"
-            android:textAllCaps="false"
-            android:textSize="20sp"
-            android:fontFamily="@font/abril_fatface"
-            app:strokeColor="@color/black"
-            style="?attr/materialButtonOutlinedStyle"/>
-
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp">
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/butCauseList"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Cause List"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
-            app:rippleColor="@color/black"
-            android:textSize="20sp"
-            android:fontFamily="@font/abril_fatface"
-            app:strokeColor="@color/black"
-            style="?attr/materialButtonOutlinedStyle"/>
-
     </RelativeLayout>
 
 </LinearLayout>
