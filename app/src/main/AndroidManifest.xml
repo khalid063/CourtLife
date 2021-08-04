@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CourtLife">
-        <activity android:name=".LoginAsUser"></activity>
+        <activity android:name=".RegistrationAsUser"></activity>
+        <activity android:name=".RegistrationAsAdvocate" />
+        <activity android:name=".LoginAsUser" />
         <activity android:name=".LoginAsAdvocate" />
         <activity android:name=".CauseListActivity" />
         <activity android:name=".RegistrationActivity" />

@@ -31,6 +31,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="120dp">
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/butRegAsAdvocate"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Advocate"
@@ -52,6 +53,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp">
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/butRegAsUser"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="User"
