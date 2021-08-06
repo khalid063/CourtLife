@@ -42,7 +42,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 startActivity(iadvocate);
                 break;
             case R.id.butRegAsUser :
-                Intent iuser = new Intent(RegistrationActivity.this, RegistrationAsAdvocate.class);
+                Intent iuser = new Intent(RegistrationActivity.this, RegistrationAsUser.class);
                 startActivity(iuser);
                 break;
 
