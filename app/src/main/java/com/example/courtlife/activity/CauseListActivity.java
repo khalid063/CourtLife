@@ -1,8 +1,10 @@
-package com.example.courtlife;
+package com.example.courtlife.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.courtlife.R;
 
 public class CauseListActivity extends AppCompatActivity {
 

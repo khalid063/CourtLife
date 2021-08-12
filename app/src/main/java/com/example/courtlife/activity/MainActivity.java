@@ -1,13 +1,13 @@
-   package com.example.courtlife;
+   package com.example.courtlife.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import com.example.courtlife.R;
 
    public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -37,15 +37,15 @@ import android.widget.Toast;
         int x = v.getId();
         switch (x){
             case R.id.butLogin:
-                Intent i = new Intent(MainActivity.this,LoginActivity.class);
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(i);
                 break;
             case R.id.butRegistration:
-                Intent iregistarion = new Intent(MainActivity.this,RegistrationActivity.class);
+                Intent iregistarion = new Intent(MainActivity.this, RegistrationActivity.class);
                 startActivity(iregistarion);
                 break;
             case R.id.butCauseList:
-                Intent icauseList = new Intent(MainActivity.this,CauseListActivity.class);
+                Intent icauseList = new Intent(MainActivity.this, CauseListActivity.class);
                 startActivity(icauseList);
                 break;
         }

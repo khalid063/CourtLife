@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CourtLife">
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".RegistrationAsUser" />
-        <activity android:name=".RegistrationAsAdvocate" />
-        <activity android:name=".LoginAsUser" />
-        <activity android:name=".LoginAsAdvocate" />
-        <activity android:name=".CauseListActivity" />
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".activity.HomeActivity"></activity>
+        <activity android:name=".activity.RegistrationAsUser" />
+        <activity android:name=".activity.RegistrationAsAdvocate" />
+        <activity android:name=".activity.LoginAsUser" />
+        <activity android:name=".activity.LoginAsAdvocate" />
+        <activity android:name=".activity.CauseListActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.MainActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
